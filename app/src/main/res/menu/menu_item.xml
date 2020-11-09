@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_share"
+        />
+
+    <item
+        android:id="@+id/Liste"
+        android:title="Liste"
+
+        />
+
+    <item android:id="@+id/Jeux" android:title="Jeux">
+        <menu>
+            <item
+                android:id="@+id/Quiz"
+                android:title="Quiz"/>
+            <item
+                android:id="@+id/MagicPic"
+                android:title="Magic Pictures"/>
+        </menu>
+    </item>
+</menu>
