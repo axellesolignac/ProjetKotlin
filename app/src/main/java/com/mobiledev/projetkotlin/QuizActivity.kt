@@ -25,10 +25,14 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
-        quizs.add(Quiz("Quelle est la capitale de l'Algérie ?", "Alger", "Paris", "Rome", "Washington",1))
-        quizs.add(Quiz("Quelle est la capitale de la France ?", "Alger", "Paris", "Rome", "Washington",2))
-        quizs.add(Quiz("Quelle est la capitale de l'Amérique ?", "Alger", "Paris", "Rome", "Washington",4))
-        quizs.add(Quiz("Quelle est la capitale de l'Italie ?", "Alger", "Paris", "Rome", "Washington",3))
+        quizs.add(Quiz("Quel célèbre dictateur dirigea l’URSS du milieu des années 1920 à 1953 ?", "Molotov", "Trotski", "Staline", "Lénine",3))
+        quizs.add(Quiz("Qui a dit : « Le sort en est jeté » (Alea jacta est) ?", "Vercingétorix", "César", "Attila", "Auguste",2))
+        quizs.add(Quiz("A qui doit-on la chanson « I shot the Sheriff» ?", "UB40", "Eric Clapton", "Jim Morrison", "Bob Marley",4))
+        quizs.add(Quiz("Quel pays a remporté la coupe du monde de football en 2014 ?", "Allemagne", "Italie", "Brésil", "Argentine",1))
+        quizs.add(Quiz("Dans quelle ville italienne l'action de la pièce de Shakespeare «Roméo et Juliette» se situe-t-elle ?", "Venise", "Vérone", "Milan", "Rome",2))
+        quizs.add(Quiz("En quelle année Charlemagne se fait-il sacrer empereur ?", "756 ap.J.C", "800 ap.J.C", "787 ap.J.C", "843 ap.J.C",2))
+        quizs.add(Quiz("Avec la laine de quel animal fait-on du cachemir ?", "mouton", "vison", "lapin", "chèvre",4))
+        quizs.add(Quiz("Quel est l'album le plus vendu des Pink Floyd ?", "The Dark side of the moon", "The Wall", "The Final Cut", "Wish You Were Here",1))
 
         shuffle(quizs);
 
@@ -68,7 +72,7 @@ class QuizActivity : AppCompatActivity() {
 
             var alert = AlertDialog.Builder(this)
             alert.setTitle("Partie terminé")
-            alert.setMessage("Tu as eu : " + numberOfGoodAnswers + " de bonne(s) réponse(s)")
+            alert.setMessage("Tu as eu : " + numberOfGoodAnswers + " /8 de bonne(s) réponse(s)")
             alert.setPositiveButton("OK") {
                 dialogInterface: DialogInterface?, i: Int -> finish()
             }
