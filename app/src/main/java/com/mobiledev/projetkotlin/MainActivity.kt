@@ -42,7 +42,8 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
             R.id.MagicPic -> {
-                Toast.makeText(this,"Baptiste ...", Toast.LENGTH_LONG).show()
+                val intent = Intent(this, PictureActivity::class.java)
+                startActivity(intent)
                 return true
             }
             else -> {
