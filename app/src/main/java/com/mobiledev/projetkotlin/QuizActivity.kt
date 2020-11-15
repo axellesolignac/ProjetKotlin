@@ -33,6 +33,13 @@ class QuizActivity : AppCompatActivity() {
         quizs.add(Quiz("En quelle année Charlemagne se fait-il sacrer empereur ?", "756 ap.J.C", "800 ap.J.C", "787 ap.J.C", "843 ap.J.C",2))
         quizs.add(Quiz("Avec la laine de quel animal fait-on du cachemir ?", "mouton", "vison", "lapin", "chèvre",4))
         quizs.add(Quiz("Quel est l'album le plus vendu des Pink Floyd ?", "The Dark side of the moon", "The Wall", "The Final Cut", "Wish You Were Here",1))
+        quizs.add(Quiz("De quelle ville française le cannelé est-il une spécialité ?", "Toulouse", "Marseille", "Nantes", "Bordeaux",4))
+        quizs.add(Quiz("Quel arbre produit la noix de pécan ?", "Macadamia", "Noisetier", "Pacanier", "Pécunier",3))
+        quizs.add(Quiz("Dans quelle ville se trouve le Musée de l’Ermitage ?", "Saint-Pétersbourg", "Moscou", "Kiev", "Stockholm",1))
+        quizs.add(Quiz("Quel légume entre dans la composition du tzatziki ?", "Câpre", "Cornichon", "Poivron", "Concombre",4))
+        quizs.add(Quiz("Dans quel pays est né le tango ?", "Brésil", "Argentine", "Espagne", "Cuba",2))
+        quizs.add(Quiz("En quelle année, la Ve République est-elle entrée en vigueur en France ?", "1878", "1905", "1958", "1962",1))
+        quizs.add(Quiz("Quelle est la capitale de l’Inde ?", "Calcutta", "Bangalore", "New Delhi", "Mumbai",3))
 
         shuffle(quizs);
 
