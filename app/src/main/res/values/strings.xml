@@ -3,4 +3,5 @@
     <string name="btn_play">JOUER</string>
     <string name="btn_score">MES SCORES</string>
     <string name="txt_score">Vous n\'avez pas encore joué</string>
+    <string name="txt_title_score">SCORE</string>
 </resources>

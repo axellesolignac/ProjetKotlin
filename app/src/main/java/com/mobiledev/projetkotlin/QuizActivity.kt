@@ -12,6 +12,7 @@ import java.util.*
 import java.util.Collections.shuffle
 import kotlin.collections.ArrayList
 
+/*Création des questions et réponses + Configuration des layout + Score*/
 
 class QuizActivity : AppCompatActivity() {
 
@@ -79,7 +80,7 @@ class QuizActivity : AppCompatActivity() {
 
             var alert = AlertDialog.Builder(this)
             alert.setTitle("Partie terminé")
-            alert.setMessage("Tu as eu : " + numberOfGoodAnswers + " /8 de bonne(s) réponse(s)")
+            alert.setMessage("" + numberOfGoodAnswers + " /15")
             alert.setPositiveButton("OK") {
                 dialogInterface: DialogInterface?, i: Int -> finish()
             }

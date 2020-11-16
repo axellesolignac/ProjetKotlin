@@ -12,6 +12,8 @@ import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL
 
+/* Connexion à l'API + */
+
 class APIBing {
     val client = OkHttpClient()
     var urlResponse: String? = null

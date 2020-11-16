@@ -2,6 +2,8 @@ package com.mobiledev.projetkotlin
 
 import kotlin.collections.List
 
+/* Initialisation des variables pour l'API*/
+
 data class BingImage(
         var _type: String? = null,
         var instrumentation: Instrumentation? = null,

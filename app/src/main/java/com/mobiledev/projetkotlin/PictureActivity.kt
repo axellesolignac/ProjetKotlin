@@ -15,6 +15,8 @@ import java.io.InputStream
 import java.net.HttpURLConnection
 import java.net.URL
 
+/*Configuration de l'action button search + Affichage de l'image cherchée*/
+
 class PictureActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

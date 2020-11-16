@@ -23,7 +23,7 @@
                 android:title="Quiz"/>
             <item
                 android:id="@+id/MagicPic"
-                android:title="Magic Pictures"/>
+                android:title="Magic Picture" />
         </menu>
     </item>
 </menu>
